@@ -29,7 +29,7 @@ class Layout
     protected $cfg;
 
     public function __construct() {
-        $this->cfg = config('config');
+        $this->cfg = config('Config');
         $this->setDefaultTemplate();
     }
 
