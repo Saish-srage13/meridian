@@ -1,0 +1,44 @@
+.user-list .table td, .user-list .table th { vertical-align: middle;}
+.category-list .card-header{background-color:#e5e5e5}
+.category-list .card{margin:0px}
+.category-list .base-category{padding-top: 10px;padding-bottom: 10px;}
+.category-list .card-header .fa-pen{position: absolute; right: 10px;}
+.category-list .card-header span{ margin-left: 10px;}
+.user-list .table .thead-dark th {
+    color: #fff;
+    background-color: #343e59;
+    border-color: #343e59;
+}
+.post-form .category-list-dropdown .select2-container .select2-selection__choice{background-color: #5250dc;color:#fff;}
+.post-form .category-list-dropdown .select2-container .select2-selection__choice__remove{color:#fff}
+.post-form .category-list-dropdown .select2-container .select2-selection__choice__remove:hover{color:#fff}
+
+.post-form .keyword-list-dropdown .select2-container .select2-selection__choice{background-color: #5250dc;color:#fff;}
+.post-form .keyword-list-dropdown .select2-container .select2-selection__choice__remove{color:#fff}
+.post-form .keyword-list-dropdown .select2-container .select2-selection__choice__remove:hover{color:#fff}
+
+/* Pagination CSS */
+ul.pagination {
+    margin-top:30px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-right:25px
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #e6e6e6;
+}
+ul.pagination li.active a {
+    color: #fff;
+    background-color: #556ee6;
+    border-color: #556ee6;
+}
+    
+/* Pagination CSS */
