@@ -9,6 +9,8 @@ class Home extends BaseController {
 	}
 
 	public function coming_soon() {
+		$uriPath = $this->request->uri->getPath();
+		$this->tag->setFrontSelectedMenu($uriPath);
 		$this->tag->setTitle('Meridian');
 		$this->view('coming_soon.phtml', []);
 	}
