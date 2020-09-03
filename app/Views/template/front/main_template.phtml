@@ -26,19 +26,19 @@
                         
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 <?php $tag->getFrontSelectedMenu() == 'home' ? 'active' : ''?>">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 <?php echo $tag->getFrontSelectedMenu() == 'home' ? 'active' : ''?>">
                                     <a class="nav-link" href="<?php echo $url->getUri() ?>">Home</a>
                                 </li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 <?php echo $tag->getFrontSelectedMenu() == 'services' ? 'active' : ''?>">
                                     <a class="nav-link" href="<?php echo $url->getUri('services') ?>">Services</a>
                                 </li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 <?php echo $tag->getFrontSelectedMenu() == 'about-us' ? 'active' : ''?>">
                                     <a class="nav-link" href="<?php echo $url->getUri('about-us') ?>">About Us</a>
                                 </li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 <?php echo $tag->getFrontSelectedMenu() == 'grey-matter' ? 'active' : ''?>">
                                     <a class="nav-link" href="<?php echo $url->getUri('grey-matter') ?>">Grey Matter</a>
                                 </li>
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 active">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 <?php echo $tag->getFrontSelectedMenu() == 'connect' ? 'active' : ''?>">
                                     <a class="nav-link" href="<?php echo $url->getUri('connect') ?>">Connect</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-5 login-btn">
