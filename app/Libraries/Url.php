@@ -28,4 +28,11 @@ class Url {
     public function getPageTitle() {
         return $this->title;
     }
+
+    public function getWhatsAppMsgUrl() {
+        $contactNumber = getenv('WHATSAPP_CONTACT_NUMBER');
+        $message = getenv('WHATSAPP_PRE_TYPED_MESSAGE');
+        $url = 'https://wa.me/'.$contactNumber.'?text='. urlencode($message);
+        return $url;
+    }
 }

@@ -71,7 +71,7 @@
             <div class="social-media-wrapper">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="<?php echo $url->getWhatsAppMsgUrl(); ?>" target="_blank">
                             <img src="<?php echo $tag->getImageUri('assets/front/images/whatsapp.svg'); ?>" alt="">
                         </a>
                     </li>
@@ -160,7 +160,6 @@
                         $("#contact-form").find("input[type=text], input[type=tel], input[type=email], textarea").val("");
                     },
                     error: function(error) {
-                        $("#largeModal").modal('toggle');
                         toastr.error("Server Error, Please contact adminstrator !");
                     }
                 });
