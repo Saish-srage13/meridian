@@ -20,7 +20,7 @@ class BaseController extends CController
 		$this->layout->addCss('css/custom.css');
 		$this->layout->addCss('css/responsive.css');
 
-		$this->layout->addJs('js/jquery-3.5.1.min.js');
+		// $this->layout->addJs('js/jquery-3.5.1.min.js');
 		$this->layout->addJs('js/popper.min.js');
 		$this->layout->addJs('js/bootstrap.min.js');
 		$this->layout->addJs('js/jquery.validate.min.js');
