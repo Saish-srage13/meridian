@@ -92,3 +92,4 @@ footer ul li a:hover{color: #fff;}
 .social-media-wrapper ul{list-style:none;padding-left:0;}
 .social-media-wrapper ul li{width:10%;float:left;}
 .follow-wrapper{padding-top:10%;}
+.contact-form label.error {color: red;padding-left: 20px;font-size: 13px;}

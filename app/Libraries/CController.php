@@ -42,8 +42,7 @@ class CController extends Controller {
         else $module = 'front';
         $templatePath = 'template/'.$module .'/'.$this->layout->getTemplate();
         $data['view'] = $module.'/'.$view;
-        // var_dump($templatePath);
-        // die();
+        
         foreach($this->libraries->libraryList as $lib) {
             if(property_exists($this, $lib))
                 $data[$lib] = $this->$lib;

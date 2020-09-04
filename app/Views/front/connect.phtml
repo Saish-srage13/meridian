@@ -15,7 +15,7 @@
 <section class="bg-grey contact-sec">
     <div class="container container-wrapper">
         <div class="row cont-row">
-            <form role="form" id="contact-form" class="contact-form">
+            <form role="form" id="contact-form" class="contact-form" method="post">
                 <div class="row ">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -24,7 +24,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                        <input type="tel" class="form-control" name="mob" autocomplete="off" id="mob" placeholder="Mobile no.">
+                        <input type="tel" class="form-control" name="phone" autocomplete="off" id="mob" placeholder="Mobile no.">
                         </div>
                     </div>
                 </div>
@@ -38,14 +38,14 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subj" autocomplete="off" id="subj" placeholder="Subject">
+                            <input type="text" class="form-control" name="subject" autocomplete="off" id="subj" placeholder="Subject">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                        <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+                        <textarea class="form-control textarea" rows="3" name="message" id="message" placeholder="Message"></textarea>
                         </div>
                     </div>
                 </div>
@@ -91,3 +91,81 @@
     </div>
 </section>
 <!--Contact Form-->
+<script type = "text/javascript">
+    $(document).ready(function() {
+        $("#contact-form").submit(function(e) {
+            e.preventDefault();
+        })
+        .validate({
+            rules: {
+                "name": {
+                    required: true,
+                    minlength: 3
+                },
+                "email": {
+                    required: true,
+                    email: true
+                },
+                'phone': {
+                    digits: true,
+                    required: true,
+                    minlength: 10
+                },
+                'subject': {
+                    required: true
+                },
+                'message': {
+                    required: true
+                }
+            },
+            messages: {
+                "name": {
+                    required: "Please, enter a name"
+                },
+                "email": {
+                    required: "Please, enter an email",
+                    email: "Email is invalid"
+                },
+                "phone": {
+                    required: "Please, enter an contact number",
+                    required: "Contact number is invalid",
+                },
+                'subject': {
+                    required: "Please, enter a subject",
+                },
+                "message": {
+                    required: "Please, enter a message",
+                }
+            },
+            submitHandler: function (form) {
+                console.log($(form).find('input[name="name"]').val());
+                // console.log($(".contact_form").find('input[name="name"]').val());
+                $.ajax({
+                    method: 'POST',
+                    url: '<?php echo $url->getUri('connect/send-connect-mail'); ?>',
+                    dataType: "json",
+                    data: {
+                        name: $(form).find('input[name="name"]').val(),
+                        email: $(form).find('input[name="email"]').val(),
+                        phone: $(form).find('input[name="phone"]').val(),
+                        subject: $(form).find('input[name="subject"]').val(),
+                        message: $("#message").val()
+                    },
+                    success: function(res) {
+                        if(res.success) {
+                        toastr.success(res.message);
+                        } else {
+                        toastr.error(res.message);
+                        }
+                        $("#contact-form").find("input[type=text], input[type=tel], input[type=email], textarea").val("");
+                    },
+                    error: function(error) {
+                        $("#largeModal").modal('toggle');
+                        toastr.error("Server Error, Please contact adminstrator !");
+                    }
+                });
+            }
+        });
+
+    })
+</script>
