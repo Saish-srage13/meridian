@@ -112,4 +112,12 @@ class Layout
         }
     }
     
+    public function getEmailTemplate($templateName) {
+        if($templateName) {
+            $templatePath = $this->cfg->emailTemplateDir . DIRECTORY_SEPARATOR . $templateName;
+            echo view($templatePath, []);
+        }
+        return null;
+    }
+
 }

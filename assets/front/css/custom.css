@@ -202,3 +202,4 @@ footer ul li a:hover{color: #fff;}
 .focus-philo-wrapper{position: relative;}
 .focus-philo-wrapper::after{position: absolute;width: 360px;height: 353px;left: 0px;bottom: 0;background: rgba(255, 255, 255, 0.59);content: '';}
 .focus-philo-wrapper::before{position: absolute;width: 360px;height: 353px;right: 0px;top: 0;background: rgba(255, 255, 255, 0.59);content: '';}
+.contact-form label.error {color: red;padding-left: 20px;font-size: 13px;}

@@ -16,4 +16,6 @@ class Config extends BaseConfig
 
     public $uploadsDir =  'public'. DIRECTORY_SEPARATOR . 'uploads'  ;
 
+    public $emailTemplateDir = 'template'. DIRECTORY_SEPARATOR .'email' ;
+
 }
