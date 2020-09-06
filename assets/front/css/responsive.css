@@ -163,7 +163,7 @@
   @media only screen and (max-width: 767px) {
     /*Header & Footer*/
     .navbar-brand img {height: 45px;}
-    .navbar-light .navbar-brand {width: 100%;display: flex;justify-content: center;}
+    .navbar-light .navbar-brand {width: 100%;display: flex;justify-content: center;margin-right: 0px;}
     .navbar-light .navbar-toggler{position: absolute;top: 5px;}
     .nav-item:after{display:none;}
     .nav-item::before, .login-btn.nav-item:before{position:absolute;display:block;top:20px;left:0;width:11px;height:1px;content:"";border:none;background-color:#000;vertical-align:0;}
