@@ -177,6 +177,7 @@
     .error-img-wrapper{margin-top: 50px;}
 
     /*Home Page*/
+    .bg-aside{margin-top: 13%;}
     .key-areas-sec h4:after, .key-areas-sec h4:before {width: 5rem;}
     .our-focus-wrapper h4:after{height: 0; width: 90%; margin:25px auto;}
     .our-focus-wrapper-img, .philo-approach-wrapper{display: flex;flex-direction: column-reverse; padding: 40px 40px 90px;}
@@ -197,7 +198,9 @@
   @media screen and (max-width: 600px) {
     /*Home Page*/
     .key-areas-sec h4:after, .key-areas-sec h4:before {content: none;}
-    .key-areas-sec h4{text-decoration: underline; font-size: 24px;}
+    .key-areas-sec h4{text-decoration: underline; font-size: 24px; margin-bottom: 0;}
+    .key-areas-sec h2 {font-size: 22px;font-weight: bolder;color: #828282;}
+    .key-areas-wrapper{margin-top: 30px !important;}
   }
   
   @media only screen and (max-width: 576px) {
@@ -210,6 +213,7 @@
     .contact-social-media ul li a img{margin-right: 15px;}
 
     /*Home Page*/
+    .bg-aside{margin-top: 20%;}
     .home-banner-text {padding: 10% 20px 15%;}
     .testi-wrapper h4{font-size: 24px;}
     .continue-reading .continue, .continue-reading .contact{padding: 10px 15px; font-size: 16px;}
