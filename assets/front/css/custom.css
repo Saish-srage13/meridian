@@ -46,7 +46,7 @@ footer ul li a:hover{color: #fff;}
 .overlay-wrapper{background: linear-gradient(90deg, #774D78 0%, rgba(92, 46, 93, 0) 100%);position: absolute;height: 100%;width: 100%;}
 .bg-aside:after{position: absolute;width: 360px;height: 353px;left: -8px;top: 600px;z-index: -1;background: rgba(92, 46, 93, 0.2);content: '';}
 .banner-text{position: absolute;bottom: 70px;background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.666724) 70.81%, rgba(255, 255, 255, 0) 100%);width: 55%;}
-.banner-text h1{font-family: 'Gilroy Bold';font-style: normal;font-weight: 800;font-size: 50px;line-height: 61px;text-align: justify;text-transform: uppercase;color: #5C2E5D;padding:10px 60px;}
+.banner-text h1{font-family: 'Gilroy Bold';font-style: normal;font-weight: 800;font-size: 40px;text-align: justify;text-transform: uppercase;color: #5C2E5D;padding:10px 60px;margin:0;}
 .bottom-overlay{position: absolute;width: 100%;height: 16px;left: 0;bottom: 0;background: rgba(255, 255, 255, 0.67);}
 
 .bg-grey{background:#f4f4f4;}
@@ -61,8 +61,8 @@ footer ul li a:hover{color: #fff;}
 .main-btn:hover{background:#fff;color:#5C2E5D;}
 .submit-btn{margin-top:30px;}
 .form-control-feedback{line-height:50px;top:0px;}
-.contact-form .row{margin-bottom:20px;}
-.contact-social-media{position:absolute;background:#5C2E5D;box-shadow:6px 6px 20px rgba(0, 0, 0, 0.3);width:521px;height:469px;left:110px;top:970px;padding:50px;}
+.contact-form .row{margin-bottom:10px;}
+.contact-social-media{position:absolute;background:#5C2E5D;box-shadow:6px 6px 20px rgba(0, 0, 0, 0.3);width:521px;height:430px;left:110px;top:970px;padding:50px;}
 .contact-social-media p{font-family:Gilroy;font-style:normal;font-weight:800;font-size:32px;line-height:44px;text-align:justify;color:#FFFFFF;position:relative;}
 .contact-social-media p:after{position:absolute;bottom:-20px;left:-50px;width:80%;height:3px;content:'';background-color:#fff;opacity:1;transition:all 200ms linear;}
 .contact-social-media ul{padding-left:0;list-style:none;padding-top:60px;}
@@ -116,12 +116,12 @@ footer ul li a:hover{color: #fff;}
 .key-areas-sec h4{font-family:Gilroy;font-style:normal;font-weight:600;font-size:30px;line-height:42px;text-align:center;color:#333333;position:relative;}
 .key-areas-sec h4:after, .key-areas-sec h4:before{display:inline-block;content:"";border-top:2px solid #C4C4C4;width:28rem;margin:-5px 1rem;transform:translateY(-1rem);}
 .key-areas-sec h2{font-family:Gilroy;font-style:normal;font-weight:300;font-size:26px;line-height:35px;text-align:center;color:#333333;}
-.key-areas-wrapper{height:560px;background:#fff;text-align:center;padding:50px 0;}
+.key-areas-wrapper{height:500px;background:#fff;text-align:center;padding-bottom: 30px;}
 .key-areas-wrapper:hover{background:#FFFFFF;box-shadow:0px 4px 20px -4px rgba(0, 0, 0, 0.25);}
 .key-areas-wrapper img{width: 300px;}
-.key-area-list{margin-top:30px;}
+.key-area-list{margin-top:15px;}
 .key-area-list ul li{font-family:Gilroy;font-style:normal;font-weight:300;font-size:18px;line-height:21px;text-align:center;color:#5C2E5D;margin-bottom:20px;padding:0 35px;}
-.testi-wrapper{height:300px;padding:10% 50px;}
+.testi-wrapper{height:260px;padding:5% 50px;}
 .testi-wrapper h4{font-family: Gilroy;
     font-style: normal;
     font-weight: 600;
@@ -165,29 +165,36 @@ footer ul li a:hover{color: #fff;}
 .philo-approach-wrapper{width: 55%; float: left;margin-left: 20px; padding: 40px; z-index: 9999;}
 .our-focus-img-wrap{width: 60%; float: right;}
 .our-focus-wrapper{width: 40%; float: left;}
-.our-focus-img-wrap img{max-width: 100%;}
+.our-focus-img-wrap img{max-width: 100%; margin-top: 10%;}
 .our-focus-wrapper h4{font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 42px;
+position: relative;
+color: #333333;}
+.our-focus-wrapper p{font-family: Gilroy;
     font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 42px;
-    position: relative;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    height: 200px;
     color: #333333;}
-    .our-focus-wrapper p{font-family: Gilroy;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 28px;
-        height: 200px;
-        color: #333333;}
 
-        .our-focus-wrapper h4:after{display: block;
-            content: "";
-            border: 1px solid #C4C4C4;
-            width: 1px;
-            margin: 25px 0 0;
-            transform: translateY(-1rem);
-            height: 105px;}
+.our-focus-wrapper h4:after{display: block;
+content: "";
+border: 1px solid #C4C4C4;
+width: 1px;
+margin: 25px 0 0;
+transform: translateY(-1rem);
+height: 40px;}
+.our-focus-wrapper .focus:after{display: block;
+content: "";
+border: 1px solid #C4C4C4;
+width: 1px;
+margin: 25px 0 0;
+transform: translateY(-1rem);
+height: 85px;}
 .read-more-btn a{background: #5C2E5D;
     mix-blend-mode: normal;
     border: 1px solid #FFFFFF;

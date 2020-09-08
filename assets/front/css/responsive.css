@@ -1,6 +1,6 @@
   @media only screen and (max-width: 1600px){
     /*Connect Us*/
-    .contact-social-media{left: 90px;;}
+    .contact-social-media{left: 90px;}
     .contact-form{width: 55%;}
 
     .testi-img {width: 100%;margin-left: 0px;}
@@ -38,7 +38,6 @@
     .navbar-nav .nav-item {padding: 0px;}
 
     /*Connect Us*/
-    .contact-social-media{top: 900px;}
     .contact-form{width: 50%;}
 
     /*Home Page*/
@@ -54,9 +53,8 @@
     .bg-aside:after{content: none;}
     .home-wrapper.bg-aside .container-wrapper{height: auto;}
     .key-areas-sec h2{font-size: 26px;}
-    .our-focus-wrapper-img, .philo-approach-wrapper{width: 100%; margin: 20px;}
     .our-focus-wrapper,.our-focus-img-wrap {width: 50%;}
-    .our-focus-wrapper p {height: auto;margin-bottom: 15%;}
+    .our-focus-wrapper p {height: 150px;margin-bottom: 15%;}
     .testi-wrapper h4{font-size:28px;}
     .banner-para{padding-right:20px;}
     .banner-para p{font-size: 17px;}
@@ -90,6 +88,8 @@
     .continue-reading img {margin: 30px 10px 0;}
     .testi-wrapper h4{font-size:24px;}
     .testi-wrapper p{font-size:28px;font-size: 18px; height:auto; margin: 20px 0 30px;}
+    .our-focus-wrapper-img, .philo-approach-wrapper{width: 100%; margin: 20px;}
+    .our-focus-wrapper p {height: auto;}
   }
   
   @media only screen and (max-width: 1223px) {
@@ -149,6 +149,7 @@
     .testi-wrapper h4{font-size: 28px;}
     .continue-reading img {margin: 0px 10px;}
     .testi-img {width: 100%;margin-left: 0;}
+    .key-areas-wrapper-3{margin-bottom: 0;}
   }
   
   @media only screen and (max-width: 890px) {
@@ -196,7 +197,7 @@
     /*Home Page*/
     .bg-aside{margin-top: 13%;}
     .key-areas-sec h4:after, .key-areas-sec h4:before {width: 5rem;}
-    .our-focus-wrapper h4:after{height: 0; width: 90%; margin:20px auto 0px;}
+    .our-focus-wrapper h4:after, .our-focus-wrapper .focus:after{height: 0; width: 90%; margin:20px auto 0px;}
     .our-focus-wrapper-img, .philo-approach-wrapper{display: flex;flex-direction: column-reverse; padding: 40px 40px 90px;}
     .our-focus-wrapper, .our-focus-img-wrap{width: 100%; text-align: center;}
     .our-focus-wrapper{margin-top: 40px;}
@@ -216,26 +217,27 @@
   
   @media screen and (max-width: 600px) {
     /*Buttons*/
-    .read-more-btn a, .main-btn{padding: 10px 25px; height: auto; width: auto;}
+    .read-more-btn a, .main-btn{padding: 10px 25px; height: auto; width: auto; border: none;}
     /*Buttons*/
 
     /*Home Page*/
     .key-areas-sec h4:after, .key-areas-sec h4:before {content: none;}
     .key-areas-sec h4{text-decoration: underline; font-size: 24px; margin-bottom: 0;}
     .key-areas-sec h2 {font-size: 22px;font-weight: bolder;color: #828282;}
-    .key-areas-wrapper{margin-top: 30px !important;}
+    .key-areas-wrapper{margin-top: 30px !important; padding: 0 0 20px;}
   }
   
   @media only screen and (max-width: 576px) {
     /*Connect Us*/
     .banner-text {width: 100%;}
-    .banner-text h1{font-size: 32px;}
+    .banner-text h1{font-size: 32px; padding: 10px 20px;}
     .bg-aside:after {content: none;}
-    .bg-aside .container-wrapper{margin-bottom: 5%;background-size: cover;background-repeat: no-repeat;background-position: center;}
+    .bg-aside .container-wrapper{margin-bottom: 0;background-size: cover;background-repeat: no-repeat;background-position: center;}
     .contact-social-media ul li a img{margin-right: 15px;}
-    .contact-social-media p{font-size: 28px;}
+    .contact-social-media p{font-size: 26px;}
     .contact-social-media ul{padding-top: 40px;}
     .contact-social-media .social-media-wrapper ul{padding-top: 0;}
+    .main-btn{font-size: 18px;}
 
     /*Home Page*/
     .bg-aside{margin-top: 20%;}
@@ -245,6 +247,7 @@
     .testi-wrapper{padding:5% 20px 10% ;}
     .testimonials-wrapper img.mw-100 {max-width: 100% !important;}
     .ptb-8 {padding: 40px 0;}
+    .our-focus-wrapper p{font-size: 18px;}
   }
   
   @media only screen and (max-width: 520px) {
