@@ -28,8 +28,8 @@
 .nav-item{position:relative;transition:all 200ms linear;}
 
 /*Footer*/
-footer{background: #5C2E5D; padding: 50px 0; float: left; width: 100%;}
-footer ul{list-style: none; padding-left: 0;}
+footer{background: #5C2E5D; padding: 30px 0; float: left; width: 100%;}
+footer ul{list-style: none; padding-left: 0;margin: 0;}
 footer ul li a, footer ul li{font-family: Gilroy;font-style: normal;font-weight: 300;font-size: 20px;line-height: 24px;color: #FFFFFF; margin-bottom: 10px;}
 footer ul li a:hover{color: #fff;}
 
@@ -42,7 +42,7 @@ footer ul li a:hover{color: #fff;}
 
 /*Connect Us*/
 .connect-wrapper .container-wrapper{background: url("../images/connect/connect-banner.png");}
-.bg-aside .container-wrapper{ height: 700px; position: relative; padding: 0;margin-bottom: 7%;background-position: center;background-size: cover;}
+.bg-aside .container-wrapper{ height: 620px; position: relative; padding: 0;margin-bottom: 4%;background-position: center;background-size: cover;}
 .overlay-wrapper{background: linear-gradient(90deg, #774D78 0%, rgba(92, 46, 93, 0) 100%);position: absolute;height: 100%;width: 100%;}
 .bg-aside:after{position: absolute;width: 360px;height: 353px;left: -8px;top: 600px;z-index: -1;background: rgba(92, 46, 93, 0.2);content: '';}
 .banner-text{position: absolute;bottom: 70px;background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.666724) 70.81%, rgba(255, 255, 255, 0) 100%);width: 55%;}
@@ -50,11 +50,11 @@ footer ul li a:hover{color: #fff;}
 .bottom-overlay{position: absolute;width: 100%;height: 16px;left: 0;bottom: 0;background: rgba(255, 255, 255, 0.67);}
 
 .bg-grey{background:#f4f4f4;}
-.contact-sec{padding:50px 0 80px;}
+.contact-sec{padding:80px 0 ;}
 .contact-sec .cont-row{background:#fff;position:relative;padding:50px 0;width:90%;margin-left:auto;}
 .contact-form{margin-top:15px;width:60%;margin-left:auto;margin-right:80px;}
 .contact-form .textarea{border-radius:13px;}
-.form-control{border:2px solid #5C2E5D;box-sizing:border-box;border-radius:50px;padding:10px 20px;font-family:Gilroy;font-style:normal;font-weight:300;font-size:22px;line-height:25px;color:#8B8B8B;}
+.form-control{border:2px solid #5C2E5D;box-sizing:border-box;border-radius:50px;padding:10px 20px;font-family:Gilroy;font-style:normal;font-weight:300;font-size:18px;line-height:25px;color:#8B8B8B;}
 .form-control:focus{box-shadow:none;border-color:#5C2E5D;}
 .form-control-feedback{line-height:50px;}
 .main-btn{background:#5C2E5D;border-color:#5C2E5D;color:#fff;width:229px;height:66px;box-shadow:4px 4px 8px rgba(0, 0, 0, 0.25);border-radius:50px;font-family:Gilroy;font-style:normal;font-size:22px;line-height:27px;text-align:center;color:#FFFFFF;}
@@ -62,8 +62,8 @@ footer ul li a:hover{color: #fff;}
 .submit-btn{margin-top:30px;}
 .form-control-feedback{line-height:50px;top:0px;}
 .contact-form .row{margin-bottom:20px;}
-.contact-social-media{position:absolute;background:#5C2E5D;box-shadow:6px 6px 20px rgba(0, 0, 0, 0.3);width:521px;height:469px;left:110px;top:1015px;padding:50px;}
-.contact-social-media p{font-family:Gilroy;font-style:normal;font-weight:800;font-size:36px;line-height:44px;text-align:justify;color:#FFFFFF;position:relative;}
+.contact-social-media{position:absolute;background:#5C2E5D;box-shadow:6px 6px 20px rgba(0, 0, 0, 0.3);width:521px;height:469px;left:110px;top:970px;padding:50px;}
+.contact-social-media p{font-family:Gilroy;font-style:normal;font-weight:800;font-size:32px;line-height:44px;text-align:justify;color:#FFFFFF;position:relative;}
 .contact-social-media p:after{position:absolute;bottom:-20px;left:-50px;width:80%;height:3px;content:'';background-color:#fff;opacity:1;transition:all 200ms linear;}
 .contact-social-media ul{padding-left:0;list-style:none;padding-top:60px;}
 .contact-social-media ul li{padding-bottom:20px;}
@@ -88,7 +88,7 @@ footer ul li a:hover{color: #fff;}
 
 
 /*Coming Soon*/
-.coming-soon-wrapper{padding:160px 0 0px;}
+.coming-soon-wrapper{padding:20px 0 0px;}
 .coming-soon-wrapper .img-wrapper img{width:100%;}
 .coming-soon-text-wrapper{padding-top:15%;}
 .coming-soon-text-wrapper h1{font-family: Gilroy Bold;font-style:normal;font-size:48px;line-height:59px;color:#5C2E5D;margin-bottom:40px;}
@@ -101,30 +101,31 @@ footer ul li a:hover{color: #fff;}
 
 /*Index Page*/
 .top-overlay{position:absolute;width:100%;height:16px;left:0;top:0;background:rgba(255, 255, 255, 0.67);z-index:1;}
-.home-wrapper .bottom-overlay{position:absolute;width:100%;height:16px;left:0;bottom:86px;background:rgba(255, 255, 255, 0.67);z-index:999;}
+.home-wrapper .bottom-overlay{position:absolute;width:100%;height:16px;left:0;bottom:5px;background:rgba(255, 255, 255, 0.67);z-index:999;}
 .home-banner-wrapper img{max-width:100%;position:relative;}
-.home-banner-text{background:#5C2E5D;color:#fff;padding:7% 80px 0 40px;}
-.home-banner-text span{font-family:Gilroy;font-style:normal;font-weight:300;font-size:25px;line-height:29px;color:#FFFFFF;}
+.home-banner-text{background:#5C2E5D;color:#fff;padding:5% 80px 0 40px;}
+.home-banner-text span{font-family:Gilroy;font-style:normal;font-weight:300;font-size:20px;line-height:18px;color:#FFFFFF;}
 .home-banner-text h1{font-family:Gilroy Bold;font-style:normal;font-weight:800;font-size:32.5px;line-height:40px;margin:10px 0;color:#FFFFFF;}
-.home-wrapper.bg-aside .container-wrapper{padding:0 15px;margin-bottom:3%;}
-.banner-para{margin-top:70px;padding-right:13%;}
+.home-wrapper.bg-aside .container-wrapper{padding:0 15px;}
+.banner-para{margin-top:35px;padding-right:13%;}
 .banner-para p{font-family:Gilroy;font-style:normal;font-weight:300;font-size:18px;line-height:26px;text-align:justify;color:#FFFFFF;}
- .banner-btn{margin-top:90px;}
+ .banner-btn{margin-top:70px;}
 .banner-btn a{background:#5C2E5D;mix-blend-mode:normal;border:1.5px solid #FFFFFF;box-shadow:2px 6px 8px rgba(0, 0, 0, 0.56);border-radius:31.5px;font-family:Gilroy;font-style:normal;font-weight:300;font-size:18px;line-height:21px;padding:16px 37px;color:#FFFFFF;}
 .banner-btn a:hover{background:#fff;color:#5C2E5D;text-decoration:none;}
 .banner-para-2 p{text-align:center;font-family:Gilroy;font-style:normal;font-weight:300;font-size:18px;line-height:138.3%;color:#000000;}
-.key-areas-sec h4{font-family:Gilroy;font-style:normal;font-weight:300;font-size:36px;line-height:42px;text-align:center;margin-bottom:40px;color:#333333;position:relative;}
+.key-areas-sec h4{font-family:Gilroy;font-style:normal;font-weight:600;font-size:30px;line-height:42px;text-align:center;color:#333333;position:relative;}
 .key-areas-sec h4:after, .key-areas-sec h4:before{display:inline-block;content:"";border-top:2px solid #C4C4C4;width:28rem;margin:-5px 1rem;transform:translateY(-1rem);}
-.key-areas-sec h2{font-family:Gilroy;font-style:normal;font-weight:300;font-size:30px;line-height:35px;text-align:center;color:#333333;}
-.key-areas-wrapper{height:636px;background:#fff;text-align:center;padding:50px 0;}
+.key-areas-sec h2{font-family:Gilroy;font-style:normal;font-weight:300;font-size:26px;line-height:35px;text-align:center;color:#333333;}
+.key-areas-wrapper{height:560px;background:#fff;text-align:center;padding:50px 0;}
 .key-areas-wrapper:hover{background:#FFFFFF;box-shadow:0px 4px 20px -4px rgba(0, 0, 0, 0.25);}
+.key-areas-wrapper img{width: 300px;}
 .key-area-list{margin-top:30px;}
 .key-area-list ul li{font-family:Gilroy;font-style:normal;font-weight:300;font-size:18px;line-height:21px;text-align:center;color:#5C2E5D;margin-bottom:20px;padding:0 35px;}
-.testi-wrapper{height:350px;padding:12% 50px;}
+.testi-wrapper{height:300px;padding:10% 50px;}
 .testi-wrapper h4{font-family: Gilroy;
     font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 600;
+    font-size: 30px;
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
@@ -135,7 +136,8 @@ footer ul li a:hover{color: #fff;}
     font-size: 24px;
     line-height: 28px;
     height: 60px;
-    color: #333333;margin: 40px 0;}
+    color: #333333;margin: 25px 0;}
+.testi-img{    width: 120%;margin-left: -16%;}
 .continue-reading .continue{background: #5C2E5D;
     border: 1px solid #5C2E5D;
     border-radius: 31px;font-family: Gilroy;
@@ -166,15 +168,15 @@ footer ul li a:hover{color: #fff;}
 .our-focus-img-wrap img{max-width: 100%;}
 .our-focus-wrapper h4{font-family: Gilroy;
     font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 600;
+    font-size: 34px;
     line-height: 42px;
     position: relative;
     color: #333333;}
     .our-focus-wrapper p{font-family: Gilroy;
         font-style: normal;
         font-weight: 300;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 28px;
         height: 200px;
         color: #333333;}
