@@ -184,7 +184,7 @@
     /*Service Page*/
     .client-crm-listing ul, .academic-crm-listing ul{list-style: none;white-space: nowrap;overflow-x: auto;overflow-y: hidden;display: inline-block;text-align: center;padding: 0;width: 100%;}
     .client-crm-listing ul li,.academic-crm-listing ul li{display: inline-block;float: none;vertical-align:middle;padding-top: 30px;}
-    .client-crm-listing ul li img,.academic-crm-listing ul li img {width: 100px;}
+    .client-crm-listing ul li img,.academic-crm-listing ul li img {width: auto;}
     .service-key-areas{margin-top: 40px;}
   }
   
