@@ -3,7 +3,8 @@ $(function () {
     $(document).ready(function () {
 
         $('#gallery-slider-wrapper').slick({
-            slidesToShow: 4,
+            autoplay: true,
+            slidesToShow: 3,
             slidesToScroll: 1,
             dots: false,
             infinite: true,

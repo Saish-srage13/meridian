@@ -179,8 +179,9 @@
     .client-service-main-wrapper.service-main-wrapper h4:after, .client-service-main-wrapper.service-main-wrapper h4:before {width: 0;}
     .crm-service-cat-wrapper.service-cat-sec-wrapper .key-areas-wrapper {height: auto;margin:0}
     .client-crm-listing ul li {width: 22%;}
-    .service-cat-sec-wrapper .key-area-list,.service-cat-sec-wrapper .key-areas-wrapper {height: auto; margin-bottom: 0;}
+    .service-cat-sec-wrapper .key-area-list,.service-cat-sec-wrapper .key-areas-wrapper {height: auto; margin-bottom: 0; padding: 10px;}
     .academic-crm-listing ul li {width: 20%;}
+    .academia .col-lg-4{padding: 0;}
 
     /*About Us Page*/
     .testimonials-wrapper .key-areas-wrapper {height: auto; margin-bottom: 0;}
@@ -317,6 +318,7 @@
 
     /*Service Page*/
     .client-crm-listing ul li, .academic-crm-listing ul li{width: 30%;}
+    #gallery-slider-wrapper img{padding: 0 30px;}
   }
 
   @media only screen and (max-width: 545px) {
