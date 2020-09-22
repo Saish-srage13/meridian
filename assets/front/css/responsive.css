@@ -70,6 +70,11 @@
     /*Service Page*/
     .client-service-main-wrapper.service-main-wrapper h4:after, .client-service-main-wrapper.service-main-wrapper h4:before {width: 10rem;}
     .service-cat-sec-wrapper .key-area-list {height: 400px;}
+
+    /*About Us Page*/
+    .testimonials-wrapper .quotes {width: 35px;}
+    .testimonials-wrapper .testi-name p{font-size: 16px;}   
+    .testimonials-wrapper .key-areas-wrapper .key-area-list p{height: auto;}   
   }
 
   @media only screen and (max-width: 1209px){
@@ -124,6 +129,10 @@
 
     /*Service Page*/
     .cat-wrapper{max-width:100%; flex:100%;}
+
+    /*About Us Page*/
+    .testimonials-wrapper .key-areas-wrapper .key-area-list {padding: 0px 20px;}
+    .testimonials-wrapper .key-areas-wrapper{height: 700px;}
   }
    
   @media only screen and (max-width: 1060px) {
@@ -172,6 +181,20 @@
     .client-crm-listing ul li {width: 22%;}
     .service-cat-sec-wrapper .key-area-list,.service-cat-sec-wrapper .key-areas-wrapper {height: auto; margin-bottom: 0;}
     .academic-crm-listing ul li {width: 20%;}
+
+    /*About Us Page*/
+    .testimonials-wrapper .key-areas-wrapper {height: auto; margin-bottom: 0;}
+    .testimonials-wrapper .col-md-12{margin-bottom: 50px;}
+    .testi-name{margin-bottom: 20px;}
+    .gallery-slider img{max-width: 100%;}
+    .philo-wrapper .img-wrapper,.about-content-wrapper .img-wrapper {width: 100%;}
+    .about-content-wrapper .connect-wrapper .img-wrapper{width: 60%;}
+    .about-content-wrapper p{font-size: 18px;}
+    .focus-para{height: auto;}
+    .focus-category {margin-top: 0px;}
+    .focus-category .title-wrapper{margin: 15px 0;}
+    .about-focus-wrapper .about-page-title{font-size: 24px;}
+    .focus-title h2{font-size: 22px;}
   }
   
   @media only screen and (max-width: 890px) {
@@ -211,6 +234,7 @@
     footer ul{margin-bottom: 0;}
     footer .copyright-wrapper{margin-top: 20px;}
     .navigation-wrap{position: absolute;}
+    .scroll-to-top{padding: 12px;}
 
     /*404 Page*/
     .error-msg-wrapper h1{font-size: 70px;}
