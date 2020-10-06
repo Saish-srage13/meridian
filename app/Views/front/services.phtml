@@ -2,10 +2,12 @@
 <!--Services Banner-->
 <section class="service-banner-wrapper bg-aside">
     <div class="container container-wrapper">
-        <div class="overlay-wrapper"></div>
         <div class="bottom-overlay"></div>
             <div class="banner-text">
                 <h1>Services</h1>
+                <div class="sub-banner">
+                    <p class="text-center">MLS offers a comprehensive range of learning solutions to Corporate, SMEs, Academics and Individuals. Have a look at our offerings. If you are looking for a solution, customised to your specific needs, we are just a call/ text away.</p>
+                </div>      
             </div>
     </div>
 </section>
@@ -15,13 +17,27 @@
 <section class="service-key-areas">
     <div class="container container-wrapper">
         <h2 class="text-center">KEY AREAS OF ENGAGEMENT</h2>
-        <p class="text-center mt-4">MLS offers a comprehensive range of learning solutions to Corporate, SMEs, Academics and Individuals. Have a look at our offerings. If you are looking for a solution, customised to your specific needs, we are just a call/ text away.</p>
+        <hr class="black-line">
+        <div class="tab-list">
+            <ul>
+                <li>
+                    <a class="tab-link" href="#competency-development">Competency Development</a>
+                </li>
+                <li>
+                    <a class="tab-link" href="#hr-and-od-initiatives">HR and OD Initiatives</a>
+                 </li>
+                <li>
+                    <a class="tab-link" href="#strategic-crm">Strategic Client Relationship Management</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </section>
 <!--Key Areas of Engagement-->
 
+<div class="wrapper-1 size_chart" id="option1">
 <!--Competency Development Title-->
-<section class="service-main-wrapper key-areas-sec ptb-5">
+<section class="service-main-wrapper key-areas-sec ptb-5" id="competency-development">
     <div class="container container-wrapper">
         <h4 class="text-center">
             <span class="competency-title">
@@ -137,7 +153,7 @@
 <!--Sub-Categories-1 -->
 
 <!--Sub-Categories-2-->
-<section class="service-cat-wrapper service-cat-sec-wrapper pb-3 bg-grey academia">
+<section class="service-cat-wrapper service-cat-sec-wrapper pb-3 bg-grey">
     <div class="container container-wrapper">
         <h4 class="text-center">
             ACADEMIA
@@ -245,9 +261,12 @@
     </div>
 </section>
 <!--Sub-Categories-3-->
+</div>
 
+
+<div class="wrapper-2 size_chart" id="option2">
 <!--HR and OD Initiatives-->
-<section class="service-main-wrapper key-areas-sec ptb-5">
+<section class="service-main-wrapper key-areas-sec ptb-5" id="hr-and-od-initiatives">
     <div class="container container-wrapper">
         <h4 class="text-center">
             <span>
@@ -295,9 +314,12 @@
     </div>
 </section>
 <!--HR Sub Categories-->
+</div>
 
+
+<div class="wrapper-3 size_chart" id="option3">
 <!--Strategic Client Relationship Management Title-->
-<section class="service-main-wrapper client-service-main-wrapper key-areas-sec ptb-5">
+<section class="service-main-wrapper client-service-main-wrapper key-areas-sec ptb-5" id="strategic-crm">
     <div class="container container-wrapper">
         <h4 class="text-center">
             <span>
@@ -313,62 +335,28 @@
     <div class="container container-wrapper">
         <p class="text-center">Customised Training programs to improve the efficiency and business performance of your sales and service force.</p>
         <div class="row sub-category">
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div class="key-areas-wrapper mt-3">
-                <h2>
-                    Assertive Communication
-                </h2>
-                <div class="crm-img">
-                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/assertive-comm.png'); ?>" alt="" class="mw-100">
+            <div class="service-img-main mt-4">
+                <div class="ser-img">
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/assertive-communication.png'); ?>" alt="">
                 </div>
+                <div class="ser-img">
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/listening-eff.png'); ?>" alt="">
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div class="key-areas-wrapper mt-3">
-                <h2>
-                    Listening Effectively
-                </h2>
-                <div class="crm-img">
-                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/listening.png'); ?>" alt="" class="mw-100">
+                <div class="ser-img">
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/persuasion-strategic.png'); ?>" alt="">
                 </div>
+                <div class="ser-img">
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/sit-handling.png'); ?>" alt="">
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div class="key-areas-wrapper key-areas-wrapper-3 mt-3">
-                <h2>
-                    Persuasion and Strategic Negotiations 
-                </h2>
-                <div class="crm-img">
-                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/persuasion.png'); ?>" alt="" class="mw-100">
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="row sub-category">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <div class="key-areas-wrapper mt-3">
-                <h2>
-                    Situational Handling
-                </h2>
-                <div class="crm-img">
-                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/situational-handling.png'); ?>" alt="" class="mw-100">
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <div class="key-areas-wrapper mt-3">
-                <h2>
-                    Client Interaction Skills
-                </h2>
-                <div class="crm-img">
-                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/client-interaction.png'); ?>" alt="" class="mw-100">
-                </div>
+                <div class="ser-img">
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/service/client-interactio-skill.png'); ?>" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!--Strategic CRM Sub Categories-->
+</div>
 
 <!--Strategic Client Relationship Management Title-->
 <section class="service-main-wrapper client-service key-areas-sec ptb-5">
@@ -390,8 +378,8 @@
 
 <!--Corporate Clients-->
 <section class="bg-grey client-crm-listing ptb-3">
-    <div class="container container-wrapper">
-    <ul>
+    <div class="container">
+    <ul class="gallery-slider" id="client-slider-wrapper">
         <li>
             <img src="<?php echo $tag->getImageUri('assets/front/images/service/corporate-clients/Fujitsu-Logo.png'); ?>" alt="">
         </li>
@@ -469,10 +457,10 @@
 </section>
 <!--Academic-->
 
-<!--Corporate Clients-->
+<!--Academic Clients-->
 <section class="bg-grey academic-crm-listing ptb-3">
-    <div class="container container-wrapper">
-    <ul>
+    <div class="container">
+    <ul class="gallery-slider" id="academic-slider-wrapper">
         <li>
             <img src="<?php echo $tag->getImageUri('assets/front/images/service/corporate-clients/mit.png'); ?>" alt="">
         </li>
