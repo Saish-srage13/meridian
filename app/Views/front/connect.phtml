@@ -2,10 +2,43 @@
 <!--Connect Banner-->
 <section class="connect-wrapper bg-aside">
     <div class="container container-wrapper">
-        <div class="overlay-wrapper"></div>
         <div class="bottom-overlay"></div>
             <div class="banner-text">
                 <h1>Connect With Us</h1>
+                <div class="sub-banner">
+                    <div class="connect-text-banner">
+                        <div class="connect-left">
+                            <ul class="info">
+                                <li>
+                                    <a href="tel:+ 91 880 670 8864"><img src="<?php echo $tag->getImageUri('assets/front/images/connect/phone.svg'); ?>" alt="">&nbsp;&nbsp;+ 91 880 670 8864</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@meridianlearningsolutions.com"><img src="<?php echo $tag->getImageUri('assets/front/images/connect/mail.svg'); ?>" alt="">&nbsp;&nbsp;info@meridianlearningsolutions.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="connect-right social-media-wrapper">
+                            <p>Follow to connect</p>
+                            <ul>
+                                <li>
+                                    <a href="<?php echo $url->getWhatsAppMsgUrl(); ?>" target="_blank">
+                                        <img src="<?php echo $tag->getImageUri('assets/front/images/connect/whatsapp.svg'); ?>" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/Meridian-Learning-Solutions-100200838275142" target="_blank">
+                                        <img src="<?php echo $tag->getImageUri('assets/front/images/connect/fb.svg'); ?>" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/meridian-learning-solutions" target="_blank">
+                                        <img src="<?php echo $tag->getImageUri('assets/front/images/connect/linkedin.svg'); ?>" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
     </div>
 </section>
@@ -57,36 +90,7 @@
             </form>
         </div>
         <div class="contact-social-media">
-            <div class="connect-wrapper">
-                <p>Connect with us</p>
-                <ul class="info">
-                    <li>
-                        <a href="tel:+ 91 880 670 8864"><img src="<?php echo $tag->getImageUri('assets/front/images/phone.svg'); ?>" alt="">+ 91 880 670 8864</a>
-                    </li>
-                    <li>
-                        <a href="mailto:info@meridianlearningsolutions.com"><img src="<?php echo $tag->getImageUri('assets/front/images/mail.svg'); ?>" alt="">info@meridianlearningsolutions.com</a>
-                    </li>
-                </ul>
-            </div> 
-            <div class="social-media-wrapper">
-                <ul>
-                    <li>
-                        <a href="<?php echo $url->getWhatsAppMsgUrl(); ?>" target="_blank">
-                            <img src="<?php echo $tag->getImageUri('assets/front/images/whatsapp.svg'); ?>" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/Meridian-Learning-Solutions-100200838275142" target="_blank">
-                            <img src="<?php echo $tag->getImageUri('assets/front/images/fb.svg'); ?>" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/meridian-learning-solutions" target="_blank">
-                            <img src="<?php echo $tag->getImageUri('assets/front/images/linkedin.svg'); ?>" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <img src="<?php echo $tag->getImageUri('assets/front/images/connect/connect-img.png'); ?>" alt="">
         </div>
     </div>
 </section>

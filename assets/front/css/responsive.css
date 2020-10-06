@@ -4,6 +4,9 @@
     .contact-form{width: 55%;}
 
     .testi-img {width: 100%;margin-left: 0px;}
+
+    /*Service*/
+    .client-crm-listing .container-wrapper, .academic-crm-listing .container-wrapper{max-width: 1140px;}
   }
   
   @media only screen and (max-width: 1580px){
@@ -47,6 +50,9 @@
     /*Connect Us*/
     .contact-form{width: 50%;}
 
+    /*Services*/
+    .tab-list ul li a{font-size: 18px;}
+
     /*Home Page*/
     .home-banner-text h1{font-size:28.5px;}
     .home-banner-text{padding: 5% 40px 0 40px;}
@@ -83,6 +89,12 @@
     .coming-soon-row{flex-direction: column-reverse;}
     .coming-soon-wrapper {padding: 20px 0 70px;}
     .coming-soon-text-wrapper{padding-top: 60px;}
+
+    /*Services*/
+    .tab-list ul {display: inline-block;}
+    .tab-list ul li {width: 100%; margin: 10px 0;}
+    .tab-list ul {display: inline-grid;justify-content: center;}
+
   }  
 
     
@@ -97,6 +109,11 @@
     .home-banner-text{padding: 5% 0 0 20px;}
     .banner-para {margin-top: 40px;}
     .banner-btn {margin-top: 50px;}
+
+    /*Service Page*/
+    .service-img-main{display: block;}
+    .service-img-main .ser-img {width: 31%; margin: 0 10px;text-align: center;}
+    .service-cat-wrapper .ser-img img {height: 350px;width: 80%;margin: 10px 0;}
   }
 
   @media only screen and (max-width: 1159px) {
@@ -118,6 +135,10 @@
     .banner-btn {margin-top: 30px;}
     .banner-btn a{padding: 10px 25px;}
     .home-banner-text h1{margin: 0;}
+
+    /*Connect*/
+    .connect-left{padding: 30px;}
+    .connect-left ul li{white-space: nowrap;}
   }
   
   @media only screen and (max-width: 1093px) {
@@ -125,14 +146,14 @@
     .navbar-nav .ml-md-5{margin-left: 2rem!important;}
 
     /*Connect Us*/
-    .banner-text{width: 75%;}
+    .banner-text{width: 100%;}
 
     /*Service Page*/
     .cat-wrapper{max-width:100%; flex:100%;}
+    .service-banner-wrapper .banner-text p{text-shadow: 1px 1px #afafaf;width: 90%;}
 
     /*About Us Page*/
     .testimonials-wrapper .key-areas-wrapper .key-area-list {padding: 0px 20px;}
-    .testimonials-wrapper .key-areas-wrapper{height: 700px;}
   }
    
   @media only screen and (max-width: 1060px) {
@@ -143,12 +164,16 @@
     .home-banner-text{padding: 5% 50px 10%;}
     .home-wrapper.bg-aside .container-wrapper{padding:0 15px 0px;}
     .banner-para-2.mt-5{margin: 0 !important;}
+
+    /*Service Page*/
+    #client-slider-wrapper .fa.fa-chevron-left::before, #academic-slider-wrapper .fa.fa-chevron-left::before{left: -35px;}
+    #client-slider-wrapper .fa.fa-chevron-right::before, #academic-slider-wrapper .fa.fa-chevron-right::before{right:-35px;}
   }
   
   @media only screen and (max-width: 1029px) {
     /*Connect Us*/
     .contact-sec .cont-row{width: 100%; margin: auto;}
-    .contact-social-media{width: 100%; position: inherit;}
+    .contact-social-media{width: 50%; margin: auto;position: inherit;}
     .contact-form {width: 90%;margin: auto;}
 
     /*404 Page*/
@@ -196,6 +221,7 @@
     .focus-category .title-wrapper{margin: 15px 0;}
     .about-focus-wrapper .about-page-title{font-size: 24px;}
     .focus-title h2{font-size: 22px;}
+    .about-banner-wrapper .banner-text p {width: 95%;}  
   }
   
   @media only screen and (max-width: 890px) {
@@ -206,10 +232,14 @@
     .key-areas-sec h4 {font-weight: 600;font-size: 28px;margin-bottom: 20px;}
 
     /*Service Page*/
-    .client-crm-listing ul, .academic-crm-listing ul{list-style: none;white-space: nowrap;overflow-x: auto;overflow-y: hidden;display: inline-block;text-align: center;padding: 0;width: 100%;}
-    .client-crm-listing ul li,.academic-crm-listing ul li{display: inline-block;float: none;vertical-align:middle;padding-top: 30px;}
+    .client-crm-listing ul, .academic-crm-listing ul{list-style: none;display: flex;padding: 0;width: 100%;}
+    .client-crm-listing ul li,.academic-crm-listing ul li{display: inline-block;vertical-align:middle;padding-top: 0px;}
     .client-crm-listing ul li img,.academic-crm-listing ul li img {width: auto;}
     .service-key-areas{margin-top: 40px;}
+    .service-img-main .ser-img {width: 47%;}
+
+    /*Connect*/
+    .contact-social-media{width: auto;height: auto;}
   }
   
   @media only screen and (max-width: 831px) {
@@ -221,6 +251,9 @@
   @media (max-width:800px){
     /*Connect Us*/
     .banner-text h1{font-size: 40px;}
+
+    /*Service Page*/
+    .service-main-wrapper h4:after, .service-main-wrapper h4:before{width: 0;}
   }
   
   @media only screen and (max-width: 767px) {
@@ -246,6 +279,10 @@
 
     /*Connect*/
     .contact-form .row, .bg-aside .container-wrapper {margin-bottom: 0;}
+    .connect-left,.connect-right{width: 100%;}
+    .connect-left{padding-bottom: 0;}
+    .connect-right{padding-top: 10px;text-align: left; border-top: 3px solid #5C2E5D;}
+    .connect-right.social-media-wrapper ul{float: left;}
     /*Connect*/
 
     /*Home Page*/
@@ -262,7 +299,6 @@
     /*Service Page*/
     .service-key-areas p{font-size: 18px;width: 100%;}
     .service-key-areas h2{font-size: 24px;}
-    .service-main-wrapper h4:after, .service-main-wrapper h4:before{width: 0;}
     .service-main-wrapper h4 span {font-size: 24px;padding: 10px;}
     .service-main-wrapper.ptb-5,.service-cat-wrapper.ptb-5{padding: 30px 0;}
     .service-cat-wrapper h4 {font-size: 24px;}  
@@ -271,6 +307,9 @@
     .cat-listing-wrapper ul li,.hr-cat-listing-wrapper p,.crm-service-cat-wrapper p{font-size: 18px;}
     .client-service .key-areas-sec h4, .service-main-wrapper h4{margin-bottom: 0;}
     .service-cat-sec-wrapper .key-areas-wrapper {padding: 30px 20px;}
+
+    /*About Us*/
+    .logo-img-wrapper{border: none;}
   }
   
   @media screen and (max-width:700px){
@@ -280,6 +319,10 @@
   @media only screen and (max-width: 670px) {
     /*Connect Us*/
     .banner-text h1{padding: 0 20px;}
+
+    /*Service Page*/
+    .service-img-main .ser-img{width: 100%;}
+    .service-cat-wrapper .ser-img img{max-width: 80%;width: auto;}
   }
   
   @media screen and (max-width: 600px) {
@@ -292,6 +335,10 @@
     .key-areas-sec h4{text-decoration: underline; font-size: 24px; margin-bottom: 0;}
     .key-areas-sec h2 {font-size: 22px;font-weight: bolder;color: #828282;}
     .key-areas-wrapper{margin-top: 30px !important; padding: 0 0 20px;}
+
+    /*Service*/
+    #client-slider-wrapper .fa.fa-chevron-left::before, #academic-slider-wrapper .fa.fa-chevron-left::before{left: -14px;}
+    #client-slider-wrapper .fa.fa-chevron-right::before, #academic-slider-wrapper .fa.fa-chevron-right::before{right:-14px;}
   }
   
   @media only screen and (max-width: 576px) {
@@ -328,9 +375,11 @@
   
   @media only screen and (max-width: 520px) {
     /*Connect Us*/
-    .contact-social-media{padding: 50px 10px 30px; height: 360px;}
+    .contact-social-media{padding: 50px 10px 0px;}
     .contact-social-media p:after{left: -10px;}
     .contact-social-media ul li a{font-size: 18px;word-break: break-all;}
+    .connect-left ul li a{font-size: 18px;}
+    .connect-left ,.connect-right{padding: 20px;}
 
     /*404 Page*/
     .error-msg-wrapper h1{font-size: 50px; margin-bottom: 20px;}
@@ -342,6 +391,8 @@
 
     /*Service Page*/
     .client-crm-listing ul li, .academic-crm-listing ul li {width: 45%;}
+    .tab-list ul li{border: 1px solid #5C2E5D; filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.48));}
+    .tab-list ul li a{border:none; filter: none;}
 }  
   
   @media only screen and (max-width: 435px) {
@@ -360,6 +411,7 @@
   @media only screen and (max-width: 356px) {
     /*Connect Us*/
     .banner-text h1 {font-size: 28px;}
+    .connect-left, .connect-right { padding: 20px 10px;}
 
     /*Service Page*/
     .service-main-wrapper h4 span.competency-title{background: transparent; color: #5C2E5D; text-decoration: underline;padding: 0; font-size: 20px;}

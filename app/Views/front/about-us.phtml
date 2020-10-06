@@ -1,10 +1,12 @@
 <!--About Us Banner-->
 <section class="about-banner-wrapper bg-aside">
     <div class="container container-wrapper">
-        <div class="overlay-wrapper"></div>
         <div class="bottom-overlay"></div>
         <div class="banner-text">
             <h1>About Us</h1>
+            <div class="sub-banner">
+                <p>We offer comprehensive learning solutions to leading MNCs, Indian business houses, SMEs, would be unicorn startups, leading universities and Individuals. We believe in partnering with our esteemed clients for effective delivery of results and learning outcomes. We aim to enhance the effectiveness and potential of an individual.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -13,15 +15,11 @@
 <!--About Content-->
 <section class="bg-grey ptb-3 about-content-wrapper">
     <div class="container container-wrapper">
-        <p>We offer comprehensive learning solutions to leading MNCs, Indian business houses, SMEs, would be unicorn startups, leading universities and Individuals. We believe in partnering with our esteemed clients for effective delivery of results and learning outcomes. We aim to enhance the effectiveness and potential of an individual.</p>
+        <p>Any learning activity is a complex cognitive process and at MLS, we believe that the effectiveness of any learning process is based on how deeply we ENGAGE the learner, ENABLE him/her to adopt, adapt, perform and become proficient, how is the learner able to EVOLVE.</p>
+        <p>Thus, our program design and delivery are based on the 3E principle – engaging the learner meaningfully, enabling him/her to acquire skills and competencies, which ultimately sets him/ her on a path to ‘evolve’.</p>
         <div class="img-wrapper">
             <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/about-desc-img.png'); ?>" alt="" class="mw-100">
         </div>
-        <p>Any learning activity is a complex cognitive process and at MLS, we believe that the effectiveness of any learning process is based on how deeply we ENGAGE the learner, ENABLE him/her to adopt, adapt, perform and become proficient, how is the learner able to EVOLVE.</p>
-        <div class="img-wrapper">
-            <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/engage-enable-evolve.png'); ?>" alt="" class="mw-100">
-        </div>
-        <p>Thus, our program design and delivery are based on the 3E principle – engaging the learner meaningfully, enabling him/her to acquire skills and competencies, which ultimately sets him/ her on a path to ‘evolve’.</p>
         <p>Due to our solution-focused approach, our training programs are considered as highly effective in domains such as employee engagement, enhancing managerial effectiveness, negotiation skills and leadership development initiatives.</p>
         <p> Our expertise in delivering learning solutions to critical business problems is used to bridge the skill gap between corporate and academia. We provide training to enhance employability of management and engineering graduates. Starting from communication skills, attitude building to structured interventions on personal effectiveness, we handle the entire corporate grooming life cycle.</p>
         <p>MLS has a long-standing engagement with our clients due to its ‘Value Delivery approach’. We deliver learning solutions to critical business problems, structured interventions to improve individual and organisational performance. Do browse through this website to know more about our learning philosophy, services offered and list of esteemed clients.</p>
@@ -38,16 +36,18 @@
 <!--About Content-->
 
 <!--Our Focus-->
-<section class="bg-white ptb-5 about-focus-wrapper">
+
+<h4 class="about-page-title ptb-3" id="meridian-focus">OUR FOCUS</h4>
+<section class="bg-grey ptb-5 about-focus-wrapper">
     <div class="container container-wrapper">
-        <h4 class="about-page-title">OUR FOCUS</h4>
         <div class="row focus-category">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 title-wrapper">
                 <div class="focus-title">
                     <h2>The Context</h2>
                 </div>
                 <div class="focus-para">
-                    <span>Taking into account the people, culture, workplace, curriculum.</span>
+                    <p>Taking into account the people, culture, workplace, curriculum.</p>
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/context.png'); ?>" alt="" class="mw-100">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 title-wrapper">
@@ -55,7 +55,8 @@
                     <h2>The Concept</h2>
                 </div>
                 <div class="focus-para">
-                    <span>Simple, relatable and easy to understand idea.</span>
+                    <p>Simple, relatable and easy to understand idea.</p>
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/concept.png'); ?>" alt="" class="mw-100">
                 </div>
             </div>
         </div>
@@ -65,7 +66,8 @@
                     <h2>The Content</h2>
                 </div>
                 <div class="focus-para">
-                    <span>Designed using 4MAT methodology to create dynamic and engaging learning.</span>
+                    <p class="sec-line">Designed using 4MAT methodology to create dynamic and engaging learning.</p>
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/content.png'); ?>" alt="" class="mw-100">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 title-wrapper">
@@ -73,7 +75,8 @@
                     <h2>The Delivery</h2>
                 </div>
                 <div class="focus-para">
-                    <span> Catering to the 4 types of learners: Innovative, Analytic, Common Sense and Dynamic, thereby developing an intrinsic learning attitude and solution-oriented mindset in all our learners offering benefit realisation for the organisation.</span>
+                    <p class="sec-line"> Catering to the 4 types of learners: Innovative, Analytic, Common Sense and Dynamic, thereby developing an intrinsic learning attitude and solution-oriented mindset in all our learners offering benefit realisation for the organisation.</p>
+                    <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/delivery.png'); ?>" alt="" class="mw-100">
                 </div>
             </div>
         </div>
@@ -86,12 +89,12 @@
 <!--hr-->
 
 <!--OUR Philosophy and Approachs-->
-<section class="bg-white ptb-5 about-focus-wrapper philo-wrapper">
+<section class="bg-white ptb-5 about-focus-wrapper philo-wrapper" id="meridian-philosophy-and-approach">
     <div class="container container-wrapper">
         <h4 class="about-page-title">OUR Philosophy and Approach</h4>
         <p class="mt-4">At MLS, we believe in the philosophy of experiential learning by Kolb (1984). The learner is exposed to real-life situations, simulations which propels his/her thought process. Our experienced trainers channelize his/her thoughts and behaviour in the right direction. So we act as ‘facilitators’ than the traditional teachers. This learning method is known for higher learning retention and better results for individuals and organizations. Whether it is a senior business leader or an engineering graduate, experiential learning techniques makes the learning process a joyful activity.</p>
         <p>We follow a case-based approach, conduct simulated discussions and apply design thinking methods to unearth, explore and solve a business problem. Taking a clue from these discussions, we train budding managers and Engineering professionals for upcoming challenges and opportunities. Our organization has effectively executed various training programs for individuals and corporate effectively, making a positive contribution to the learning process.</p>
-        <p>To know more about experiential learning and our programs based on this philosophy, <span class="bold-text">do connect with us at…</span></p>
+        <p>To know more about experiential learning and our programs based on this philosophy, <a href="<?php echo $url->getUri('connect') ?>"><span class="bold-text">do connect with us.</span></a></p>
         <div class="img-wrapper">
             <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/philosophy-and-approach.png'); ?>" alt="" class="mw-100">
         </div>
@@ -104,15 +107,21 @@
 <!--hr-->
 
 <!--Testimonials-->
-<section class="bg-white pt-5 pb-8 testimonials-wrapper about-focus-wrapper">
+<section class="bg-white pt-5 pb-8 testimonials-wrapper testim-wrapper about-focus-wrapper" id="meridian-testimonials">
     <div class="container container-wrapper">
         <h4 class="about-page-title">Testimonials</h4>
-        <div class="row">
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="row" id="testimonial-slider">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div class="key-areas-wrapper mt-3">
                     <div class="key-area-list">
-                        <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/quote.svg'); ?>" alt="" class="quotes mw-100">
-                        <p class="mt-4">Damini is someone who has exceptional expertise in leadership coaching. I have been a student of her for a couple of leadership courses. What I like most is her unique coaching style, her knowledge about the subject and her passion for anything that she does. I still use my notes from her training and every time I refer those, they show me some more insights on the topics and examples Damini uses during those courses. Keep up the good work and I wish you all the best for your future endeavours!!</p>
+                        <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/quote.svg'); ?>" alt="" class="quotes mw-100 mb-4">
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="post-1" />
+
+                            <p class="read-more-wrap">Damini is someone who has exceptional expertise in leadership coaching. I have been a student of her for a couple of leadership courses. What I like most is her unique coaching style, her knowledge about the subject and her passion for anything<span class="read-more-target">  that she does.I still use my notes from her training and every time I refer those, they show me some more insights on the topics and examples Damini uses during those courses. Keep up the good work and I wish you all the best for your future endeavours!!</span></p>
+                            
+                            <label for="post-1" class="read-more-trigger"></label>
+                        </div>
                     </div>
                     <div class="testi-name">
                         <p>-Vyankatesh Papinwar</p>
@@ -122,7 +131,7 @@
                     <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/Deutsche-Bank.png'); ?>" alt="">
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div class="key-areas-wrapper mt-3">
                     <div class="key-area-list">
                         <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/quote.svg'); ?>" alt="" class="quotes mw-100">
@@ -137,16 +146,20 @@
                     <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/Saama.png'); ?>" alt="">
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div class="key-areas-wrapper key-areas-wrapper-3 mt-3">
                     <div class="key-area-list">
-                        <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/quote.svg'); ?>" alt="" class="quotes mw-100">
-                        <p class="mt-4">Hi Soudamini,
+                        <img src="<?php echo $tag->getImageUri('assets/front/images/about-us/quote.svg'); ?>" alt="" class="quotes mw-100 mb-4">
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="post-3" />
+                            <p class="read-more-wrap">Hi Soudamini,
                             It has always been a wonderful experience to work with you. What I have observed during the training engagement and feedback of the training is that;
-                            You are an interesting combination of being People sensitive, solution-focused and result-oriented. I have seen that you put in great efforts to understand the business needs, deliverables and specific challenges. Your approach and solutions were flexible to accommodate our specific expectations.
+                            <span class="read-more-target">You are an interesting combination of being People sensitive, solution-focused and result-oriented. I have seen that you put in great efforts to understand the business needs, deliverables and specific challenges. Your approach and solutions were flexible to accommodate our specific expectations.
                             Your sincerity and dedication at work is a classic example of client centricity and setting a new bar of excellence every time.
                             I would strongly recommend you for conceptualizing, planning and offering a people-centric, business-focused solution in my future engagements as well
-                            Wish you all the best</p>
+                            Wish you all the best</span></p>   
+                            <label for="post-3" class="read-more-trigger"></label>
+                        </div>
                     </div>
                     <div class="testi-name">
                         <p>-Vishal Agarwal,</p>
