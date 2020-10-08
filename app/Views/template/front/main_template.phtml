@@ -113,5 +113,12 @@
 
     <?php $layout->renderJs(); ?>
     <script src="https://kit.fontawesome.com/16be05b89d.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+        $(".nav-tabs a").click(function(){
+            $(this).tab('show');
+        });
+        });
+    </script>
 </body>
 </html>
