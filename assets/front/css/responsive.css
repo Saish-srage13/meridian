@@ -207,6 +207,7 @@
     .service-cat-sec-wrapper .key-area-list,.service-cat-sec-wrapper .key-areas-wrapper {height: auto; margin-bottom: 0; padding: 10px;}
     .academic-crm-listing ul li {width: 20%;}
     .academia .col-lg-4{padding: 0;}
+    #competency-development .nav-tabs .nav-item {width: 20%;}
 
     /*About Us Page*/
     .testimonials-wrapper .key-areas-wrapper {height: auto; margin-bottom: 0;}
@@ -222,6 +223,7 @@
     .about-focus-wrapper .about-page-title{font-size: 24px;}
     .focus-title h2{font-size: 22px;}
     .about-banner-wrapper .banner-text p {width: 95%;}  
+    .focus-para p.sec-line {height: auto;}
   }
   
   @media only screen and (max-width: 890px) {
@@ -237,6 +239,7 @@
     .client-crm-listing ul li img,.academic-crm-listing ul li img {width: auto;}
     .service-key-areas{margin-top: 40px;}
     .service-img-main .ser-img {width: 47%;}
+    #competency-development .nav-link{font-size: 20px;}
 
     /*Connect*/
     .contact-social-media{width: auto;height: auto;}
@@ -307,6 +310,7 @@
     .cat-listing-wrapper ul li,.hr-cat-listing-wrapper p,.crm-service-cat-wrapper p{font-size: 18px;}
     .client-service .key-areas-sec h4, .service-main-wrapper h4{margin-bottom: 0;}
     .service-cat-sec-wrapper .key-areas-wrapper {padding: 30px 20px;}
+    #competency-development .nav-tabs .nav-item {width: 33.33%;}
 
     /*About Us*/
     .logo-img-wrapper{border: none;}
@@ -394,6 +398,18 @@
     .tab-list ul li{border: 1px solid #5C2E5D; filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.48));}
     .tab-list ul li a{border:none; filter: none;}
 }  
+
+  @media only screen and (max-width:480px){
+    
+    #competency-development .nav-tabs {width: 100%;overflow-x: scroll;overflow: auto;white-space: nowrap;text-align: center;display: block;}
+    #competency-development .nav-tabs .nav-item {width: 39.33%;display: inline-block;margin-bottom: 0;}
+    #competency-development .nav-tabs .nav-link.active{display: block; padding: 5px 0 !important;}
+    #competency-development .nav-tabs {border-bottom: none;}
+    #competency-development ::-webkit-scrollbar {width: 10px;height: 5px;}
+    #competency-development ::-webkit-scrollbar-track {background: #d1d1d1;}
+    #competency-development ::-webkit-scrollbar-thumb {background:#5c2e5d; }
+    #competency-development ::-webkit-scrollbar-thumb:hover {background: #555;}
+  }
   
   @media only screen and (max-width: 435px) {
     /*Connect Us*/
@@ -401,6 +417,9 @@
 
     /*Home Page*/
     .focus-philo-wrapper::after{width: 320px;}
+
+    /*Services*/
+    #competency-development .nav-link {font-size: 16px;}
   }
   
   

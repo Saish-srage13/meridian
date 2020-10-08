@@ -206,13 +206,20 @@ footer ul li a:hover{color: #fff;}
 .black-line{border-top: 1px solid  #333333;}
 .tab-list{width: 100%;margin: auto;padding-top: 30px;}
 .tab-list ul{display: flex;list-style: none; width: 100%;padding: 0;}
-.tab-list ul li{width: 35%; float: left; text-align: center;margin: 0 10px;border: 2px solid #5C2E5D;filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.48)); border-radius: 39px;padding: 7px;}
-.tab-list ul li a{font-family: Gilroy;font-style: normal;font-size: 20px; line-height: 32px;text-align: right;color: #5C2E5D;}
+.tab-list ul li{width: 35%; float: left; text-align: center;margin: 0 10px;border: 2px solid #5C2E5D;filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.3)); border-radius: 39px;padding: 7px;}
+.tab-list ul li a{font-family: Gilroy Bold;font-style: normal;font-size: 20px; line-height: 32px;text-align: right;color: #5C2E5D;}
 .tab-list ul li:hover{background: #5C2E5D;color: #fff;}
 .tab-list ul li:hover a{color: #fff;text-decoration: none;}
 .service-img-main{width: 90%;margin: auto;display: flex;}
 .service-img-main .ser-img{width: 18%; float: left;margin: 0 10px;}
 .service-cat-wrapper .ser-img img{height: 360px;}
+#competency-development .nav-tabs{justify-content: center;}
+#competency-development .nav-tabs .nav-item{width: 15%;text-align: center;}
+#competency-development .nav-tabs .nav-link.active{background-color: #5c2e5d;color: #fff !important;border: 1px solid #5c2e5d;padding: 5px 10px !important;display: block;}
+#competency-development .nav-item:after{opacity: 0;}
+#competency-development .nav-tabs {border-bottom: 1px solid #5c2e5d;}
+#competency-development .nav-tabs .nav-link:hover, #competency-development .nav-tabs .nav-link{border: none;}
+#competency-development .nav-item::before{display: none;}
 
 /*About Us*/
 .about-banner-wrapper .container-wrapper{background: url("../images/about-us/about-us-banner.png");background-size: 100% 100%;}
