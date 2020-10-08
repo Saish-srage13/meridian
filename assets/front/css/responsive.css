@@ -325,7 +325,7 @@
     .banner-text h1{padding: 0 20px;}
 
     /*Service Page*/
-    .service-img-main .ser-img{width: 100%;}
+    .service-img-main .ser-img{width: 100%;margin: 0;}
     .service-cat-wrapper .ser-img img{max-width: 80%;width: auto;}
   }
   
@@ -370,6 +370,7 @@
     /*Service Page*/
     .client-crm-listing ul li, .academic-crm-listing ul li{width: 30%;}
     #gallery-slider-wrapper img{padding: 0 30px;}
+    .crm-service-cat-wrapper .sub-category{background: #fff;}
   }
 
   @media only screen and (max-width: 545px) {
