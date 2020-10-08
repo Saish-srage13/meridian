@@ -311,6 +311,10 @@
     .client-service .key-areas-sec h4, .service-main-wrapper h4{margin-bottom: 0;}
     .service-cat-sec-wrapper .key-areas-wrapper {padding: 30px 20px;}
     #competency-development .nav-tabs .nav-item {width: 33.33%;}
+    .service-img-main .ser-img {width: 50%;}
+    .crm-service-cat-wrapper .sub-category{background: #fff;}
+    .service-img-main .ser-img{margin: 10px 0 !important; border: 2px solid #5C2E5D; border-radius: 5px;box-shadow: 0px 4px 20px -4px rgba(0, 0, 0, 0.25);}
+    .service-img-main .ser-img:last-child{margin-bottom: 20px;}
 
     /*About Us*/
     .logo-img-wrapper{border: none;}
@@ -370,7 +374,6 @@
     /*Service Page*/
     .client-crm-listing ul li, .academic-crm-listing ul li{width: 30%;}
     #gallery-slider-wrapper img{padding: 0 30px;}
-    .crm-service-cat-wrapper .sub-category{background: #fff;}
   }
 
   @media only screen and (max-width: 545px) {
