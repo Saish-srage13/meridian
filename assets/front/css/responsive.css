@@ -373,7 +373,7 @@
 
     /*Service Page*/
     .client-crm-listing ul li, .academic-crm-listing ul li{width: 30%;}
-    #gallery-slider-wrapper img{padding: 0 30px; height: 200px;}
+    #gallery-slider-wrapper img{padding: 0 30px;height: 250px;width: 400px;}
   }
 
   @media only screen and (max-width: 545px) {
