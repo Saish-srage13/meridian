@@ -259,7 +259,7 @@ footer ul li a:hover{color: #fff;}
 .logo-img-wrapper{text-align: center;border: 2px solid #5C2E5D;box-sizing: border-box;border-radius: 80px;width: 45%;background: #fff;margin: -30px auto 0;}
 .logo-img-wrapper img{max-width: 100%;height: 45px;width: auto; margin: auto;padding: 5px 0;}
 
-#gallery-slider-wrapper img, #client-slider-wrapper img, #academic-slider-wrapper img {margin:auto;padding:10px}
+#gallery-slider-wrapper img, #client-slider-wrapper img, #academic-slider-wrapper img {margin:auto;padding:10px;width: 350px;  height: 260px;}
 #gallery-slider-wrapper .fa.fa-chevron-left::before{position: absolute;top: 50%;font-size: 30px;}
 #gallery-slider-wrapper .fa.fa-chevron-right::before{position: absolute;top: 50%;right: 0;font-size: 30px;}
 #gallery-slider-wrapper .fa, #client-slider-wrapper .fa, #academic-slider-wrapper .fa{color: #5C2E5D;}
@@ -277,6 +277,8 @@ footer ul li a:hover{color: #fff;}
     font-size: 0;
     transition: .25s ease;
   }
+
+  .read-more-wrap{margin-bottom: 0px;}
   
   .read-more-state:checked ~ .read-more-wrap .read-more-target {
     opacity: 1;
@@ -293,12 +295,14 @@ footer ul li a:hover{color: #fff;}
   }
   
   .read-more-trigger {
-    font-family: Gilroy Bold;
+    font-family: Gilroy;
     cursor: pointer;
     display: inline-block;
-    color: #666;
+    color: #5C2E5D;
     font-size: .9em;
     padding: 0 .5em;
+    text-decoration: underline;
+    margin-bottom: 20px;
   }
   
   .testim-wrapper p {
