@@ -317,7 +317,7 @@
     .service-img-main .ser-img:last-child{margin-bottom: 20px;}
 
     /*About Us*/
-    #gallery-slider-wrapper img{width: 300px;}
+    .testimonials-wrapper .col-md-12{margin-bottom: 0;}
   }
   
   @media screen and (max-width:700px){
@@ -373,7 +373,7 @@
 
     /*Service Page*/
     .client-crm-listing ul li, .academic-crm-listing ul li{width: 30%;}
-    #gallery-slider-wrapper img{padding: 0 30px;height: 250px;width: 400px;}
+    #gallery-slider-wrapper img{padding: 0 30px;height: 200px;}
   }
 
   @media only screen and (max-width: 545px) {
@@ -439,6 +439,5 @@
     /*Service Page*/
     .service-main-wrapper h4 span.competency-title{background: transparent; color: #5C2E5D; text-decoration: underline;padding: 0; font-size: 20px;}
     .client-service-main-wrapper.service-main-wrapper h4 span{padding: 0;}
-    .logo-img-wrapper img{height: 40px;}
   }
   
