@@ -318,6 +318,7 @@
 
     /*About Us*/
     .testimonials-wrapper .col-md-12{margin-bottom: 0;}
+    .testimonials-wrapper .key-areas-wrapper{padding-bottom:25px;}
   }
   
   @media screen and (max-width:700px){
