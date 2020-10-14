@@ -291,6 +291,7 @@
     /*Home Page*/
     .bg-aside{margin-top: 13%;}
     .key-areas-sec h4:after, .key-areas-sec h4:before {width: 5rem;}
+    .key-areas-sec h4 a{font-size: 24px;}
     .our-focus-wrapper h4:after, .our-focus-wrapper .focus:after{height: 0; width: 90%; margin:20px auto 0px;}
     .our-focus-wrapper-img, .philo-approach-wrapper{display: flex;flex-direction: column-reverse; padding: 40px 40px 90px;}
     .our-focus-wrapper, .our-focus-img-wrap{width: 100%; text-align: center;}
